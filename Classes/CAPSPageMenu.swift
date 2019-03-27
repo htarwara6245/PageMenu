@@ -26,7 +26,7 @@ import UIKit
     @objc optional func didMoveToPage(_ controller: UIViewController, index: Int)
 }
 
-open class CAPSPageMenu: UIViewController {
+public class CAPSPageMenu: UIViewController {
 
     //MARK: - Configuration
     var configuration = CAPSPageMenuConfiguration()
